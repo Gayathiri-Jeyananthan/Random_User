@@ -5,6 +5,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin: 20px;
+    background-color: rgb(242, 227, 227);
 }
 
 .container {
@@ -22,6 +23,7 @@ body {
     border:none;
     color:white;
     border-radius: 5px;
+    margin-left: 800px;
 }
 
 .profiles-container {
@@ -29,19 +31,17 @@ body {
     flex-wrap: wrap;
     gap: 20px;
     margin-bottom: 20px;
-    
-    
+       
 }
 
 .profile-card {
     border: 1px solid #ddd;
     border-radius: 5px;
     padding: 15px;
-    width: 180px;
     text-align: center;
     align-items: center;
     justify-content: center;
-    margin-left: 35px;
+    margin-left: 40px;
     height: 200px;
     width: 230px;
     box-shadow: 3px 3px #555;
@@ -64,20 +64,25 @@ body {
 }
 
 table {
-    width: 100%;
+    width: 80%;
     border-collapse: collapse;
     margin-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-left: 160px;
 }
 
 table, th, td {
-    border: 1px solid #ddd;
+    border: 2px solid #787474;
 }
 
 th, td {
     padding: 10px;
-    text-align: left;
+    text-align: center;
 }
 
 th {
-    background-color: #f4f4f4;
+    background-color: #565151;
+    color:white
 }
