@@ -27,8 +27,9 @@ body {
 .profiles-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     margin-bottom: 20px;
+    
 }
 
 .profile-card {
@@ -37,6 +38,8 @@ body {
     padding: 15px;
     width: 180px;
     text-align: center;
+    height: 200px;
+    width: 200px;
 }
 
 .profile-card img {
